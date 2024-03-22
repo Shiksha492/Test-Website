@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usertesting.com/get-paid-to-test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            /* position: sticky;
+            top: 0px; */
+
+        }
+
+        .top {
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0px 0px 8px 0px #555252;
+
+        }
+
+        .firstnav {
+            /* border: 2px solid yellow; */
+            height: 80px;
+            width: 540px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 364px 0px 0px;
+
+        }
+
+        .img {
+            /* border: 2px solid purple; */
+            margin: 10px 5px 10px 40px;
+        }
+
+        .firstnav ul {
+            /* border: 2px solid rgb(37, 41, 146); */
+            width: 400px;
+            display: flex;
+            margin: 0px 0px 0px 83px;
+
+        }
+
+        .firstnav ul li {
+            list-style: none;
+            margin: 5px;
+            padding: 5px 0;
+
+
+        }
+
+        .firstnav ul li a {
+            text-decoration: none;
+            /* border: 3px solid green; */
+            padding: 5px;
+            font-family: "Proxima Nova", sans-serif;
+            font-size: 15px;
+            color: rgb(112, 98, 98);
+
+        }
+
+        .secnav {
+            /* border: 2px solid skyblue; */
+            display: flex;
+            height: 60px;
+            width: 120px;
+
+        }
+
+        .btntop {
+            /* border: 2px solid orange; */
+            width: 150px;
+            text-align: center;
+            /* justify-content: center; */
+            align-items: center;
+        }
+
+        .btn {
+            background-color: rgb(11, 138, 217);
+            color: white;
+            border-style: none;
+
+            font-size: 17px;
+            padding: 10px;
+            margin-top: 8px;
+            border-radius: 11px;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+
+        .container {
+            background-color: white;
+            height: 100vh;
+            display: flex;
+            margin: 10px;
+            font-family: "Proxima Nova", sans-serif;
+            justify-content: center;
+            /* align-items: center; */
+            /* border: 2px solid red; */
+
+        }
+
+        .firsthalf {
+            /* border: 2px solid blueviolet; */
+            margin: 85px 5px 5px 5px;
+            height: 70vh;
+            padding: 0 70px 0 95px;
+
+
+        }
+
+        .firsthalf h3 {
+            font-weight: lighter;
+            /* border: 2px solid orangered; */
+            margin: 5px 0 10px 5px;
+            text-decoration: underline;
+            text-decoration-color: rgb(51, 141, 225);
+            text-decoration-thickness: 5px;
+
+        }
+
+        .firsthalf h2 {
+
+            /* border: 2px solid rgb(21, 232, 21); */
+            font-size: 61px;
+            margin: 10px 0 10px 0;
+        }
+
+        .firsthalf p {
+            /* border: 2px solid rgb(232, 23, 23); */
+
+            font-size: 18px;
+            color: grey;
+            font-weight: lighter;
+
+        }
+
+        .sechalf {
+            /* border: 2px solid yellow; */
+            margin: 5px;
+            height: 70vh;
+            width: 40vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 85px 5px 5px 5px;
+            padding: 0 70px 0 10px;
+
+        }
+
+        .sechalf img {
+            margin: 0 0 0 0;
+            height: 350px;
+            width: 500px;
+
+
+        }
+
+
+
+        .inputtags {
+            position: relative;
+            /* border: 2px solid black; */
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+
+
+        }
+
+
+        .input {
+            width: 100%;
+            /* padding-right: 100px; */
+            height: 52px;
+            box-sizing: border-box;
+            margin-top: 19px;
+
+            border-style: none;
+            border: 1px solid grey;
+            border-radius: 5px;
+
+        }
+
+        .input::placeholder {
+            padding: 15px 0px 0px 15px;
+            font-size: 20px;
+        }
+
+        .secbtn {
+            position: absolute;
+            right: 6px;
+            top: 19px;
+            bottom: 30px;
+            line-height: 1;
+            z-index: 4;
+            padding: 0 44px;
+            height: 37px;
+        }
+
+        .agree1 {
+            /* border: 2px solid rgb(26, 26, 150); */
+            /* margin: 10px; */
+            padding: 5px 0px;
+            font-size: 14px;
+            color: #555252;
+
+        }
+
+        .agree1 a {
+            text-decoration: none;
+        }
+
+        .third {
+            /* border: 2px solid green; */
+            text-align: center;
+            margin: 9px;
+            padding: 10px 200px;
+            font-family: sans-serif;
+        }
+
+        .third h1 {
+
+            /* border: 2px solid orange; */
+            margin: 10px;
+            font-weight: 800;
+            padding: 5px 0;
+            color: rgb(3, 3, 40);
+            font-size: 37px;
+
+        }
+
+        .third p {
+            /* border: 2px solid blue; */
+            margin: 10px;
+            font-size: 15px;
+            color: #282727;
+        }
+
+        .fourth {
+            /* border: 2px solid green; */
+            padding: 70px 0 15px 0;
+            text-align: center;
+            font-size: 24px;
+            font-family: sans-serif;
+            background-color: rgb(198, 224, 234);
+            margin: 0 9px;
+        }
+
+        .testimonials {
+            /* border: 2px solid black; */
+            height: 75vh;
+            background-color: rgb(198, 224, 234);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 9px;
+        }
+
+        .section1 {
+            /* border: 2px solid red; */
+            margin: 10px;
+            height: 400px;
+            width: 250px;
+            padding: 0px 50px 0 24px;
+            font-family: sans-serif;
+            font-size: 19px;
+            color: #1a1818;
+            border-left: 5px solid rgb(63, 63, 212);
+
+
+        }
+
+        .section1 h4 {
+            /* border: 2px solid yellow; */
+            margin-top: 30px;
+            margin-bottom: 3px;
+            font-size: 16px;
+        }
+
+        .section1 p {
+            font-size: 15px;
+        }
+
+        .section2 {
+            /* border: 2px solid orangered; */
+            margin: 9px;
+            display: flex;
+            height: 80vh;
+
+        }
+
+        .text {
+            /* border: 2px solid green; */
+            margin: 80px 30px 30px 85px;
+            font-family: sans-serif;
+
+        }
+
+        .text h1 {
+            /* border: 2px solid grey; */
+            margin: 25px 25px 5px 25px;
+            font-size: 40px;
+            color: rgb(7, 7, 46);
+
+        }
+
+        .text p {
+            /* border: 2px solid blue; */
+            margin: 15px 25px 5px 25px;
+            font-size: 17px;
+            color: #1a1818;
+        }
+
+        .text button {
+            /* border: 2px solid red; */
+            /* margin: 5px 5px 5px 5px ; */
+        }
+
+        .img4 {
+            /* border: 2px solid red; */
+            margin: 80px 85px 30px 30px;
+
+
+        }
+
+        .img4 img {
+            height: 350px;
+            border-radius: 30px;
+        }
+
+        .but {
+            margin: 25px 0;
+           
+            color: white;
+            border-style: none;
+
+            font-size: 17px;
+            
+            box-sizing: border-box;
+            border-radius: 11px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn4 {
+            margin-left: 25px;
+            height: 50px;
+            padding: 15px 25px 15px 25px;
+            background-color: rgb(11, 138, 217);
+        }
+
+        .btn5 {
+            margin-left: 15px;
+            height: 50px;
+            padding: 15px 25px 15px 25px;
+            background-color: white;
+            color: rgb(11, 138, 217);
+            border: 2px solid rgb(11, 138, 217);
+            margin-top: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="top">
+            <div class="firstnav">
+                <div class="img">
+                    <img src="https://www.usertesting.com/themes/custom/usertesting/logo.svg" alt="">
+                </div>
+                <ul>
+                    <li><a href="">How it works</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Support</a></li>
+                </ul>
+            </div>
+            <div class="secnav">
+                <div class="btntop"><button class="btn">Sign In</button></div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="firsthalf">
+            <h3>GET PAID TO TEST</h3>
+            <h2>Boost your monthly income in your free time</h2>
+            <p>Try the ultimate side hustle. It’s easy, fast, and simple. Share your perspective on products and
+                experiences and make money online from the comfort of your home.</p>
+            <div class="inputtags">
+
+                <input type="text" class="inputtags input" name="email" placeholder="Enter you email">
+
+                <button class="  btn secbtn">Get started</button>
+            </div>
+            <!-- <br> -->
+            <input type="checkbox" id="agree" name="agree" value="agree">
+            <label class="agree1">I have read and agree with the <a href="">Terms of Use</a> and our <a href="">Privacy
+                    Policy.</a></label>
+        </div>
+        <div class="sechalf">
+            <img src="https://usertesting.widen.net/content/cfnu4izcfr/webp/HERO-get-paid-to-test-725x512.png?w=725"
+                alt="">
+        </div>
+
+    </main>
+    <div class="third">
+        <h1>How it works</h1>
+        <p>Influence the biggest brands, latest technologies, and innovative companies while earning money online in
+            your spare time.</p>
+    </div>
+    <div class="fourth">
+        <h1>Testimonials</h1>
+    </div>
+    <div class="testimonials">
+
+        <div class="section1">UserTesting pays well. it is an excellent way to make extra money and on top of that, is
+            very enjoyable. These are real companies needing real opinions - not endless surveys asking you the same
+            questions over and over. You actually get to make a difference! Payment is always on time and without
+            problems. I have no hesitation in recommending people give this a go. I am so glad I did! <br>
+            <h4>Jeff
+            </h4>
+            <p>ParticipantReview from TrustRadius</p>
+        </div>
+        <div class="section1">I've been using UserTesting for many years and it is an amazing platform! It's
+            sophisticated and easy to use. It connects me with companies where I give genuine feedback on websites,
+            prototypes, and videos to help improve their services or message. And, I earn extra cash that really adds
+            up! <br>
+            <h4>Pat
+            </h4>
+            <p>ParticipantReview from TrustRadius</p>
+        </div>
+        <div class="section1">I have nothing but love for this amazing company. Usertesting pays users like myself to
+            share our personal and professional experiences with companies thereby allowing the latter to make more
+            customer centric products. I was able to make more than 500$ in a few months sharing my thoughts and giving
+            as little as 5 minutes and as much as 1 hour of my time...<br>
+            <h4>Kartik
+            </h4>
+            <p>ParticipantReview from TrustRadius</p>
+        </div>
+
+
+    </div>
+    <div class="section2">
+        <div class="text">
+            <h1>Get paid for your perspectives</h1>
+            <p>Best-in-class companies rely on UserTesting to gain valuable insights into their products from people
+                like you! New test opportunities are posted every day from companies around the world</p>
+            <button class="but btn4">Learn More</button>
+            <button class="but btn5">Get Started</button>
+
+        </div>
+        <div class="img4">
+            <img src="https://usertesting.widen.net/content/pvmd25ssr1/webp/PHOTO-2022-CN-Pat-path-device-test-insights-618x400.jpg?crop=yes&amp;k=c&amp;w=618&amp;h=400"
+                alt="">
+        </div>
+    </div>
+</body>
+
+</html>
